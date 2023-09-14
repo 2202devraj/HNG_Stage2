@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Installation](#installation)
-- [Overview and Funtions](#OverviewAndFuntions)
+- [Overview and Funtions](#overview-and-functions-of-the-app)
 
 ## Installation
 
