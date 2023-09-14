@@ -2,10 +2,7 @@
 
 ## Table of Contents
 - [Installation](#installation)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Overview and Funtions](#OverviewAndFuntions)
 
 ## Installation
 
@@ -24,7 +21,7 @@ git clone [https://github.com/yourusername/my-cv-android-app.git](https://github
 - Build the project by clicking the "Build" menu and selecting "Build Project."
 - Run the app on an Android emulator or a physical Android device by clicking the "Run" button.
 
-## Overview and Funtions of App
+## Overview and Functions of the App
 
 ### Viewing CV Information
 - The app allows you to view your CV information in a clean and organized format.
@@ -32,7 +29,7 @@ git clone [https://github.com/yourusername/my-cv-android-app.git](https://github
 
 ### Editing CV Information
 - You can easily edit and update your CV information within the app.
-- Make changes to your personal details in real time.
+- Make changes to your personal details in real-time.
 
 ### User-Friendly Interface
 - The app features an intuitive and user-friendly interface for a seamless experience.
