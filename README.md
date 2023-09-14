@@ -9,7 +9,7 @@
 To use this Android application, follow these installation steps:
 
 1. **Clone the Repository**: 
-git clone [https://github.com/yourusername/my-cv-android-app.git](https://github.com/2202devraj/HNG_Stage2.git]
+git clone https://github.com/2202devraj/HNG_Stage2.git
 
 
 2. **Open in Android Studio**: 
