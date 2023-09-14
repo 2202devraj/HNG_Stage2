@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CV</string>
+    <string name="fullName">Devraj Singh</string>
+    <string name="slackUsername">2022devraj</string>
+    <string name="githubHandle">2202devraj</string>
+    <string name="bio">Android Intern</string>
+</resources>

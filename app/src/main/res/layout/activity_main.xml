@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="375sp"
+        android:layout_height="600sp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/black"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087">
+
+        <TextView
+            android:id="@+id/fullNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="50sp"
+            android:layout_marginTop="50sp"
+            android:layout_marginEnd="50sp"
+            android:background="@drawable/rectangle_white"
+            android:fontFamily="@font/raleway_semibold"
+            android:padding="10sp"
+            android:text="Full Name"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/slackUsernameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginStart="50sp"
+            android:layout_marginTop="170sp"
+            android:layout_marginEnd="50sp"
+            android:background="@drawable/rectangle_white"
+            android:fontFamily="@font/raleway_semibold"
+            android:padding="10sp"
+            android:text="Slack Username"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/bioTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginStart="50sp"
+            android:layout_marginTop="400sp"
+            android:layout_marginEnd="50sp"
+            android:background="@drawable/rectangle_white"
+            android:fontFamily="@font/raleway_semibold"
+            android:padding="10sp"
+            android:text="A brief personal bio."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/githubHandleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:layout_marginStart="50sp"
+            android:layout_marginTop="290sp"
+            android:layout_marginEnd="50sp"
+            android:background="@drawable/rectangle_white"
+            android:fontFamily="@font/raleway_semibold"
+            android:padding="10sp"
+            android:paddingTop="10sp"
+            android:text="GitHub Handle"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/GH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textSize="15sp"
+            android:layout_marginTop="265sp"
+            android:layout_marginEnd="50sp"
+            android:text="Github"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/SU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textSize="15sp"
+            android:layout_marginTop="145sp"
+            android:layout_marginEnd="50sp"
+            android:text="Slack Username"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/FN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginEnd="50sp"
+            android:text="Name"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/Bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textSize="15sp"
+            android:layout_marginTop="375sp"
+            android:layout_marginEnd="50sp"
+            android:text="Bio"
+            android:textColor="@color/white"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50sp"
+        android:layout_marginEnd="50sp"
+        android:onClick="editCV"
+        android:text="Edit"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textSize="25sp"
+        android:fontFamily="@font/raleway_semibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
